@@ -51,4 +51,4 @@ def search_vehicle():
     return render_template("index.html", vehicles=filtered_vehicles)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0', port=5000)
